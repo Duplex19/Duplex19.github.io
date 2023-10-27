@@ -83,6 +83,7 @@ main {
 
 .my-side {
   min-height: 100vh;
+  width: 250px;
 }
 
 .my-side ul a {
@@ -91,4 +92,10 @@ main {
 
 .my-side ul a::before {
   color: azure;
+}
+
+@media (min-width: 768px) {
+  .my-side {
+    width: 200px;
+  }
 }
